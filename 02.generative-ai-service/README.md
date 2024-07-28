@@ -260,19 +260,19 @@ Apply chain-of-thought prompting without providing examples
 * **Expertise**: Pretraining models is hard - requires a thorough understanding of model performance, how to monitor for it, detect and mitigate hardware failures, and understand the limitations of the model
 
 ## In-context Learning / Few shot Prompting
-User provides demonstrations in the prompt to teach the model how to perform certain tasks
+* User provides demonstrations in the prompt to teach the model how to perform certain tasks.
 * Popular techniques include **Chain of Thought Prompting**
 * Main limitation: Model Context Length
 
 ## Fine-tuning a pretrained model
-Optimize a model on a smaller domain-specific dataset
+* Optimize a model on a smaller domain-specific dataset
 * Recommended when a pretrained model doesn't perform your task well or when you want to teach it something new
 * Adapt to specific style and tone, and learn human preferences
 
 ### Fine-tuning Benefits
 * Improve Model Performance on specific tasks
-    * More effective mechanism of improving model performance than Prompt Engineering
-    * By customizing the model to domain-specific data, it can better understand and generate contextually relevant responses
+    * More effective mechanism of improving model performance than Prompt Engineering.
+    * By customizing the model to domain-specific data, it can better understand and generate contextually relevant responses.
 * Improve Model Efficiency
     * Reduce the number of tokes needed for your model to perform well on your tasks
     * Condense the expertise of a large model into a smaller, more efficient model
@@ -352,6 +352,7 @@ Optimize a model on a smaller domain-specific dataset
 
 > Sometimes we might need to use more than one
 
+Steps to to follow in order to  customize LLMs with my data:
 1. Start with a simple Prompt
 2. Add Few shot Prompting
 3. Add simple retrieval using RAG
