@@ -417,7 +417,7 @@ Steps to to follow in order to  customize LLMs with my data:
 |---|---|---|---|
 | Large Cohere | cohere.command | Dedicated AI cluster unit, either for **hosting** or **fine-tuning** the cohere.command model | dedicated-unit-large-cohere-count |
 | Small Cohere | cohere.command-light | Dedicated AI cluster unit, either for **hosting** or **fine-tuning** the cohere.command-light model | dedicated-unit-small-cohere-count |
-| Embed Cohere | cohere.embed | Dedicated AI cluster unit, either for **hosting** the cohere.embed models | dedicated-unit-embed-cohere-count |
+| Embed Cohere | cohere.embed | Dedicated AI cluster unit, for **hosting** the cohere.embed models | dedicated-unit-embed-cohere-count |
 | Llama2-70 | llama2-70b-chat | Dedicated AI cluster unit, either for **hosting** the Llama2 models | dedicated-unit-large-llama2-70-count |
 
 # Dedicated AI Cluster Units Sizing
