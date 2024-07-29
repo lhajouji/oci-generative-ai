@@ -442,7 +442,7 @@ Steps to to follow in order to  customize LLMs with my data:
 ## Pricing
 * Minimum Commitment
     * Min Hosting commitment: **744 unit-hours/cluster**
-    * Min Fine-tuning commitment: **1 unit-hour/fine-tuning job**
+    * Min Fine-tuning commitment: **2 unit-hour/fine-tuning job**
 
 ### Example:
 * Unit Hours for each Fine-tuning
