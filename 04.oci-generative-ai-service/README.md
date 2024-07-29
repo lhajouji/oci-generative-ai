@@ -92,7 +92,7 @@ LLM has limited knowledge and needs to be augmented with custom data
 
 # Extending Chatbot by Adding RAG + Memory
 ## RAG Plus Memory
-In addition to RAG, we need out Chatbot to be conversational too
+In addition to RAG, we need our Chatbot to be conversational too
 
 ### RAG
 * Get relevant documents and insert these in prompts
