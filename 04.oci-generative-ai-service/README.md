@@ -151,3 +151,5 @@ We will deployt out Chatbot code to Data Science as a Model
 8. Invoke the Model
 
 > Exam tip: read about LangSmith
+> https://python.langchain.com/v0.2/docs/concepts/
+> https://docs.smith.langchain.com/
